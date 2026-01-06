@@ -1,0 +1,17 @@
+/* تنظیمات فونت و بدنه */
+body { 
+    font-family: 'Vazir', 'Tahoma', sans-serif; 
+}
+
+/* سایدبار */
+.sidebar { 
+    min-height: 100vh; 
+}
+
+/* تنظیمات نقشه */
+#map { 
+    height: 400px; 
+    width: 100%; 
+    border-radius: 0.5rem; 
+    z-index: 1; /* اطمینان از قرارگیری زیر دراپ‌داون‌ها */
+}
